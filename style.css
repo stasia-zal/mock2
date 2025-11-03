@@ -1,0 +1,201 @@
+/* --- General Styles --- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* --- Task 1: Home Page Styles --- */
+
+/* 1a. Menu at the top right */
+nav {
+    background-color: #333;
+    overflow: hidden; /* Clear floats */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+nav li {
+    display: inline-block; /* Horizontal menu */
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* 1b & 2a & 3a & 4a & 5a. Centered Title */
+h1.page-title {
+    text-align: center;
+    color: #444;
+}
+
+/* 1c. Full-width, justified paragraph */
+.full-width-paragraph {
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+/* 1d. Three responsive columns */
+.columns-container {
+    display: flex;
+    flex-wrap: wrap; /* This allows columns to stack on small screens */
+    gap: 20px; /* Space between columns */
+}
+
+.column {
+    flex-grow: 1; /* Columns will grow to fill space */
+    flex-basis: 300px; /* Minimum width before wrapping */
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.column h3 {
+    color: #333;
+}
+
+/* 1e. Link hover color */
+footer a:hover {
+    color: #FF0000; /* Red on hover */
+}
+
+/* --- Task 2: Data Page Styles --- */
+
+/* 2b. Table styling */
+.data-table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse; /* Single line border */
+}
+
+.data-table th, .data-table td {
+    border: 1px solid black; /* Single solid line border */
+    padding: 10px;
+    text-align: left;
+}
+
+.data-table thead th {
+    background-color: black;
+    color: white;
+}
+
+/* --- Task 3: Images Page Styles --- */
+
+/* 3b. Image gallery */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1cm; /* 1cm gap between images */
+    margin-top: 30px;
+}
+
+.gallery a {
+    display: block; /* To contain the image */
+}
+
+.gallery img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover; /* Ensures images are same size without distortion */
+    border: 4px solid #555; /* Frame around each image */
+}
+
+/* --- Task 4: Form Page Styles --- */
+.contact-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* 4b. Edit fields with blue background */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box; /* Fixes padding and width issues */
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+    background-color: #e0f0ff; /* Light blue background */
+}
+
+/* 4c. Green buttons */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.btn {
+    background-color: #28a745; /* Green */
+}
+
+/* --- Task 5: Author Page Styles --- */
+
+/* 5b. Numbered list styling */
+.author-list {
+    list-style-type: upper-alpha; /* A, B, C... */
+    border: 2px solid #333; /* Box around the list */
+    padding: 30px 30px 30px 60px; /* Padding for box and list markers */
+    margin: 30px auto;
+    max-width: 500px;
+    background: #fff;
+}
+
+.author-list li {
+    font-weight: bold; /* Bold text */
+    margin-bottom: 10px;
+}
+
+.links-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.links-section a {
+    display: block;
+    margin: 10px;
+    font-size: 1.1em;
+}

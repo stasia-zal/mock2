@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<it_concepts>
+    <concept type="network">
+        <name>TCP/IP</name>
+        <purpose>Internet protocol suite</purpose>
+        <era>1970s</era>
+    </concept>
+    <concept type="storage">
+        <name>Solid-State Drive (SSD)</name>
+        <purpose>Data storage</purpose>
+        <era>1990s</era>
+    </concept>
+    <concept type="security">
+        <name>Firewall</name>
+        <purpose>Network security</purpose>
+        <era>1980s</era>
+    </concept>
+    <concept type="methodology">
+        <name>Agile</name>
+        <purpose>Software development</purpose>
+        <era>2000s</era>
+    </concept>
+</it_concepts>

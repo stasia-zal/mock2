@@ -1,0 +1,22 @@
+[
+    {
+        "language": "Python",
+        "year_created": 1991,
+        "is_compiled": false
+    },
+    {
+        "language": "Java",
+        "year_created": 1995,
+        "is_compiled": true
+    },
+    {
+        "language": "JavaScript",
+        "year_created": 1995,
+        "is_compiled": false
+    },
+    {
+        "language": "C++",
+        "year_created": 1985,
+        "is_compiled": true
+    }
+]

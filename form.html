@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="data.html">IT Data</a></li>
+            <li><a href="images.html">IT Images</a></li>
+            <li><a href="form.html">Survey</a></li>
+            <li><a href="author.html">Author</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1 class="page-title">IT Interest Survey</h1>
+
+        <form class="contact-form" action="#" method="post">
+            <div class="form-group">
+                <label for="name">Your Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="it-field">Which IT field interests you most?</label>
+                <select id="it-field" name="it-field">
+                    <option value="choose">Choose the field</option>
+                    <option value="software">Software Development</option>
+                    <option value="cybersecurity">Cybersecurity</option>
+                    <option value="data">Data Science</option>
+                    <option value="networking">Networking</option>
+                    <option value="hardware">Hardware Engineering</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn">Save</button>
+                <button type="reset" class="btn">Cancel</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
